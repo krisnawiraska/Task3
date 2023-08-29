@@ -70,6 +70,9 @@ console.log("===RANDOM===");
 let resultRandom = Math.floor(Math.random() * 5)+1;
 console.log(resultRandom);
 
+function name(params) {
+    
+}
 
 
 

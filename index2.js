@@ -121,3 +121,5 @@ function checkVokal(inputhuruf) {
 }
 checkVokal("b")
 
+
+

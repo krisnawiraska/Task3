@@ -16,26 +16,26 @@ calculator(num1,num2)
 console.log("======Cara 2======");
 function calculatorSecond(aritmatika) {
     let input1 = 4
-    let input2 = "b"
+    let input2 = 2
     if (typeof input1 !== 'number' || typeof input2 !== 'number') {
         console.log("Input harus berupa angka.");
         return;
     }
     if (aritmatika === "+") {
         let resultplus = input1 + input2
-        console.log("hasil plus adalah plus =" + resultplus);
+        console.log("hasil plus adalah =" + resultplus);
     } else if (aritmatika === "-"){
         let resultmin = input1 - input2
-        console.log("hasil min adalah min =" + resultmin);      
+        console.log("hasil min adalah =" + resultmin);      
     } else if (aritmatika === "*"){
         let resultMultiplication = input1 * input2
-        console.log("hasil kali adalah min =" + resultMultiplication);
+        console.log("hasil kali adalah  =" + resultMultiplication);
     } else if (aritmatika === "/"){
-    let resultDistribution = input1 * input2
-    console.log("hasil bagi adalah min =" + resultMultiplication);
+        let resultDistribution = input1 / input2
+        console.log("hasil bagi adalah  =" + resultDistribution);
     }
 
-}calculatorSecond("-")
+}calculatorSecond("*")
 
 console.log("======N0 2======");
 

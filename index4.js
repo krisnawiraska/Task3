@@ -17,6 +17,8 @@ let calculator = (aritmatika) => {
     } else if (aritmatika === "/"){
         let resultDistribution = input1 / input2
         console.log("hasil bagi adalah  =" + resultDistribution);
+    } else{
+        console.log("operator salah");
     }
 } 
 calculator("/")
